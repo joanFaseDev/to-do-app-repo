@@ -4,9 +4,9 @@
 
 The goal here is to build a tiny app to display on screen a list of things to do. More specifically, one use a form with a text input and a pair of _Submit_&sol;_Clear List_ buttons. Every time an entry is submitted, it should appear in the center of the page. If there's already entries on the list, then the new one should appear at the bottom of the list.
 The _Clear List_ button should erase all entries in the list plus each item of the list should display a pair of buttons _X_&sol;_Done_. The first is used to remove an item individually, the second mark it as _Done_ and add a little effect for visual feedback (e.g changing its color, lined-through it,...).
-This project came from a youtube video of [Andy Sterkowitz](https://www.youtube.com/watch?v=roumzWd4XJU&list=PLOSs2PF1l7PLPhmH0ep2DGxtZT1OH2czk&index=2)meant to provide some inspirations for wannabe developpers lacking ideas and&sol;or motivation. There's no solution provided, only instructions on what the finished product should look like. I find this kind of content really useful and it seems fair to share the source here.
+This project came from a youtube video of [Andy Sterkowitz](https://www.youtube.com/watch?v=roumzWd4XJU&list=PLOSs2PF1l7PLPhmH0ep2DGxtZT1OH2czk&index=2) meant to provide some inspirations for wannabe developpers lacking ideas and&sol;or motivation. There's no solution provided, only instructions on what the finished product should look like. I find this kind of content really useful and it seems fair to share the source here.
 
-Ressources: \* [Tab icon](https://icones8.fr/icons/set/to-do)
+Ressources:  [Tab icon](https://icones8.fr/icons/set/to-do)
 
 ## Project Review (once completed)
 
