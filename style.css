@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  font-family: "Patrick Hand", cursive;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+  background-color: #1b263b;
+  color: #0d1b2a;
+}
+
+.container__title {
+  text-align: center;
+}
+
+.container,
+.container__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e0e1dd;
+}
+
+.container,
+.todo-container {
+  width: calc(75vw - 20px);
+  border: 4px double #0d1b2a;
+  padding: 10px 20px;
+  margin: 10px auto;
+}
+
+.todo-container {
+  background-color: #e0e1dd;
+}
+
+.container__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 200px;
+  min-height: 100px;
+}
+
+.container__input {
+  font-size: 0.6em;
+  border: 4px double #0d1b2a;
+  color: #415a77;
+  text-align: center;
+}
+
+.container__input::placeholder {
+  color: #415a77;
+  text-align: center;
+}
+
+.container__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.btn-item {
+  font-size: 0.8em;
+  font-weight: bold;
+  border: 4px double #0d1b2a;
+  transition: color 0.7s cubic-bezier(0.25, 1, 0.5, 1),
+    background-color 0.7s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+.btn-item:hover {
+  background-color: #0d1b2a;
+  color: #e0e1dd;
+  border-color: #e0e1dd;
+}
+
+.btn-item:active {
+  background-color: #415a77;
+  color: #e0e1dd;
+  border-color: #e0e1dd;
+}
+
+.btn-remove {
+  margin-right: 20px;
+}
+
+.todo-init {
+  text-align: center;
+}
+
+.div--spacing {
+  padding: 10px 20px;
+}
+
+.li--li-through {
+  text-decoration: wavy line-through 3px #415a77;
+}

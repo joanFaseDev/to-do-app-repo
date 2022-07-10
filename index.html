@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A small to-do app where one can input things to do and the whole list is displayed to the center of the screen."
+    />
+    <title>To-do App</title>
+    <link rel="icon" href="icon-list.png" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- Dancing Script & Patrick Hand Font-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Patrick+Hand&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section class="container">
+      <h1 class="container__title">To-do List</h1>
+      <form action="#nowhere" class="container__form">
+        <input
+          class="container__input"
+          type="text"
+          placeholder="Add an item here!"
+          name="todo-item"
+          required
+        />
+        <div class="container__buttons">
+          <button class="btn-item btn-submit">Submit</button>
+          <button type="button" class="btn-item btn-clear">Clear List</button>
+        </div>
+      </form>
+    </section>
+    <section class="todo-container">
+      <p class="todo-init">There's nothing to do at all!</p>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
